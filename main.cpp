@@ -1,5 +1,10 @@
-#include <iostream>
+#include <iostream>  // Needed for cout
+
+using namespace std;  // Lets us use cout without std::
 
 int main() {
-  std::cout << "Hello World!\n";
+    // Print the required message
+    cout << "My first C++ program. This is fun!" << endl;
+
+    return 0; // End program successfully
 }
